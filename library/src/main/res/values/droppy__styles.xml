@@ -15,7 +15,7 @@
     <style name="Droppy.DroppyPopup">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:background">@drawable/bt_bg_popupmenu</item>
+        <item name="background">@drawable/bt_bg_popupmenu</item>
     </style>
 
     <style name="Droppy.DroppyMenu">
@@ -26,7 +26,7 @@
     </style>
 
     <style name="Droppy.DroppyMenuSeparator">
-        <item name="android:background">#DDDDDD</item>
+        <item name="background">@color/droppy_separator</item>
         <item name="android:layout_height">0.5dp</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:orientation">horizontal</item>
@@ -44,7 +44,7 @@
         <item name="android:paddingBottom">2dp</item>
         <item name="android:paddingLeft">5dp</item>
         <item name="android:paddingRight">5dp</item>
-        <item name="android:background">@drawable/droppy_list_item_selector</item>
+        <item name="background">@drawable/droppy_list_item_selector</item>
     </style>
 
     <style name="Droppy.DroppyMenuItemIcon">

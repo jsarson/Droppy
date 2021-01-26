@@ -1,10 +1,12 @@
 package com.shehabic.droppy;
 
 import android.app.Activity;
-import android.support.v4.app.Fragment;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
 
 /**
  * Helper class which allows to dismiss already opened Popup.

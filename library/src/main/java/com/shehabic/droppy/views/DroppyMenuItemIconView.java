@@ -5,15 +5,16 @@ import android.content.res.TypedArray;
 import android.util.AttributeSet;
 import android.view.Gravity;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
+
+import androidx.appcompat.widget.AppCompatImageView;
 
 import com.shehabic.droppy.R;
 
 /**
  * Created by shehabic on 3/7/15.
  */
-public class DroppyMenuItemIconView extends android.support.v7.widget.AppCompatImageView {
+public class DroppyMenuItemIconView extends AppCompatImageView {
 
     public DroppyMenuItemIconView(Context context) {
         this(context, null);

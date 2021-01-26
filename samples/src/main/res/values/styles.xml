@@ -17,7 +17,7 @@
     </style>
 
     <style name="customMenuSeparator" parent="Droppy.DroppyMenuSeparator">
-        <item name="android:background">#FF0000</item>
+        <item name="background">@color/droppy_separator_custom</item>
     </style>
 
     <style name="customMenuItem" parent="Droppy.DroppyMenuItem">
@@ -43,10 +43,10 @@
         <item name="android:paddingTop">5dp</item>
         <item name="android:paddingRight">2dp</item>
         <item name="android:paddingBottom">0dp</item>
-        <item name="android:background">@android:drawable/bottom_bar</item>
+        <item name="background">@android:drawable/bottom_bar</item>
     </style>
 
 
     <!-- Backward-compatible version of ?android:attr/buttonBarButtonStyle -->
-    <style name="ButtonBarButton"/>
+    <style name="ButtonBarButton" />
 </resources>

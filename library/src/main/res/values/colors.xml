@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <item name="droppy_separator" type="color">#FFBBBBBB</item>
+    <item name="droppy_separator_custom" type="color">#FF0000</item>
     <item name="droppy_title_color" type="color">#FF333333</item>
 </resources>

@@ -1,13 +1,6 @@
 package com.shehabic.droppy_samples;
 
-import com.shehabic.droppy.DroppyClickCallbackInterface;
-import com.shehabic.droppy.DroppyMenuCustomItem;
-import com.shehabic.droppy.DroppyMenuItem;
-import com.shehabic.droppy.DroppyMenuPopup;
-import com.shehabic.droppy_samples.util.SystemUiHider;
-
 import android.annotation.TargetApi;
-import android.app.Activity;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
@@ -17,6 +10,14 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.SeekBar;
 
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.shehabic.droppy.DroppyClickCallbackInterface;
+import com.shehabic.droppy.DroppyMenuCustomItem;
+import com.shehabic.droppy.DroppyMenuItem;
+import com.shehabic.droppy.DroppyMenuPopup;
+import com.shehabic.droppy_samples.util.SystemUiHider;
+
 
 /**
  * An example full-screen activity that shows and hides the system UI (i.e.
@@ -24,7 +25,7 @@ import android.widget.SeekBar;
  *
  * @see SystemUiHider
  */
-public class FullscreenActivity extends Activity {
+public class FullscreenActivity extends AppCompatActivity {
 
     DroppyMenuPopup droppyMenu;
     Button btn;

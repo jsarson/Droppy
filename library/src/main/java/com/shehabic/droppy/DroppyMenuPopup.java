@@ -1,6 +1,5 @@
 package com.shehabic.droppy;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.ContextWrapper;
 import android.graphics.Point;
@@ -13,6 +12,8 @@ import android.view.ViewGroup;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.FrameLayout;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.shehabic.droppy.animations.DroppyAnimation;
 import com.shehabic.droppy.views.DroppyMenuContainerView;
@@ -298,10 +299,10 @@ public class DroppyMenuPopup {
         }
     }
 
-    protected static Activity getActivity(Context context) {
+    protected static AppCompatActivity getActivity(Context context) {
 
-        if (context instanceof Activity) {
-            return (Activity) context;
+        if (context instanceof AppCompatActivity) {
+            return (AppCompatActivity) context;
         } else if (context instanceof ContextWrapper) {
             return getActivity(((ContextWrapper) context).getBaseContext());
         }

@@ -1,8 +1,9 @@
 package com.shehabic.droppy_samples.util;
 
-import android.app.Activity;
 import android.view.View;
 import android.view.WindowManager;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 /**
  * A base implementation of {@link SystemUiHider}. Uses APIs available in all
@@ -19,7 +20,7 @@ public class SystemUiHiderBase extends SystemUiHider {
      * Constructor not intended to be called by clients. Use
      * {@link SystemUiHider#getInstance} to obtain an instance.
      */
-    protected SystemUiHiderBase(Activity activity, View anchorView, int flags) {
+    protected SystemUiHiderBase(AppCompatActivity activity, View anchorView, int flags) {
         super(activity, anchorView, flags);
     }
 
